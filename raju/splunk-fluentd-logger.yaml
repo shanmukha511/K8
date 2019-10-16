@@ -1,0 +1,11 @@
+  splunk:
+    hec:
+      token: 1f3cce4e-15e7-441a-b1d2-885c3ccad501
+      protocol: http
+      host: 35.238.100.200
+      port: 8088
+      indexName: test
+      # connection to splunk is insecure
+      insecureSSL: true
+  kubernetes: 
+    clusterName: "prd"
